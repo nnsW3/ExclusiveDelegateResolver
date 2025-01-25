@@ -114,7 +114,7 @@ interface IDelegateRegistry {
 
     /**
      * @notice Allow the delegate to act on behalf of `msg.sender` for a specific amount of ERC20 tokens
-     * @dev The actual amount is not encoded in the hash, just the existence of a amount (since it is an upper bound)
+     * @dev The actual amount is not encoded in the hash, just the existence of an amount (since it is an upper bound)
      * @param to The address to act as delegate
      * @param contract_ The address for the fungible token contract
      * @param rights Specific subdelegation rights granted to the delegate, pass an empty bytestring to encompass all rights
@@ -128,7 +128,7 @@ interface IDelegateRegistry {
 
     /**
      * @notice Allow the delegate to act on behalf of `msg.sender` for a specific amount of ERC1155 tokens
-     * @dev The actual amount is not encoded in the hash, just the existence of a amount (since it is an upper bound)
+     * @dev The actual amount is not encoded in the hash, just the existence of an amount (since it is an upper bound)
      * @param to The address to act as delegate
      * @param contract_ The address of the contract that holds the token
      * @param tokenId The token id to delegate
