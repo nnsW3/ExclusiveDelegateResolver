@@ -16,7 +16,7 @@ The resolver is deployed at the following addresses:
 
 Don't see your chain? Feel free to deploy your own!
 
-Deploys on EVM equivalent chains can be run with the following command on any chain the canonical ImmutableCreate2Factory and Delegatexyz are deployed:
+Deploys on EVM equivalent chains can be run with the following command on any chain where the canonical ImmutableCreate2Factory and Delegatexyz are deployed:
 
 ```shell
 $ forge script DeployEVM --rpc-url <your_rpc_url> --private-key <your_private_key>
